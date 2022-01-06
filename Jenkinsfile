@@ -1,5 +1,5 @@
-pipeline{
-  agent any() {
+pipeline {
+  agent any
     environment{
     PATH="/opt/maven3/bin:$PATH"
     }
@@ -9,5 +9,4 @@ pipeline{
         git 'https://github.com/wickedrishav/hello-world'
       }
     }
-  }
 }
